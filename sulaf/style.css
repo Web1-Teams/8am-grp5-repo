@@ -1,0 +1,168 @@
+/* تنسيق الصفحة العامة */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://thumbs.dreamstime.com/b/blurred-background-dental-clinic-interior-191028614.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+    line-height: 1.8;
+}
+
+header {
+    background-color: rgba(40, 9, 243, 0.527);
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    padding: 1.3rem;
+}
+
+header nav ul li {
+    margin: 1.2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    left: 2rem;
+}
+
+header nav ul li a:hover {
+    color: wheat;
+    text-decoration: underline;
+    border-radius: 5rem;
+}
+.content { 
+    display: flex; 
+    justify-content: flex-end;
+     align-items: center; 
+     gap: 1rem;
+      font-size: 
+      3.2rem; 
+      color: azure; 
+    } 
+
+.content a { 
+    color: azure; 
+    text-decoration: none; 
+    transition: color 0.3s;
+ } 
+
+.content a:hover { 
+    color: #ffdd57; 
+}
+.container {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: auto; 
+    overflow: hidden; 
+}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+
+
+/* تنسيق الهيدر */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* تنسيق الروابط داخل الهيدر */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1abc9c;
+}
+
+/* تنسيق القسم الذي يحتوي على الخدمات */
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* تنسيق كل خدمة فردية */
+.service {
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+/* تنسيق الصور */
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* تنسيق العناوين والنصوص */
+.service h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.service p {
+    font-size: 1em;
+    color: #666;
+}
