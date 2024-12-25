@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="علاجات اللثة: التشخيص والعلاج والوقاية من أمراض اللثة.">
+    <meta name="keywords" content="علاجات اللثة, طب اللثة, أمراض اللثة, التهاب اللثة, تشخيص اللثة">
+    <meta name="author" content="عيادة الدكتور فارس الفقيه">
+    <title>علاجات اللثة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #3b82f6;
+            --accent-color: #60a5fa;
+            --dark-color: #1e293b;
+            --light-color: #f8fafc;
+            --text-color: #334155;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Tajawal', 'Cairo', sans-serif;
+            background-color: var(--light-color);
+            color: var(--text-color);
+            line-height: 1.8;
+        }
+
+        .section {
+            padding: 3rem 1.5rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2.5rem;
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: var(--shadow);
+            animation: slideUp 0.6s ease-out;
+        }
+
+       
+        h2 {
+            font-size: 2.25rem;
+            text-align: center;
+            color: var(--primary-color);
+            position: relative;
+            padding-bottom: 1rem;
+            margin-bottom: 2.5rem;
+            font-weight: 700;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            transform: translateX(50%);
+            width: 120px;
+            height: 4px;
+            background: linear-gradient(to left, var(--primary-color), var(--accent-color));
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: var(--dark-color);
+            margin: 2rem 0 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+
+        h3::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 24px;
+            background-color: var(--accent-color);
+            margin-left: 0.75rem;
+            border-radius: 4px;
+        }
+
+        p {
+            color: var(--text-color);
+            margin-bottom: 1.5rem;
+            font-size: 1.125rem;
+            line-height: 1.8;
+        }
+
+        
+        .tips-list {
+            list-style: disc;
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.125rem;
+        }
+
+       
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .service-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid #e2e8f0;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .service-card p {
+            color: var(--text-color);
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+
+        
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+      
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.75rem;
+            }
+
+            h3 {
+                font-size: 1.25rem;
+            }
+
+            .section {
+                padding: 2rem 1rem;
+            }
+        }
+
+      
+        @media print {
+            .container {
+                box-shadow: none;
+                padding: 0;
+            }
+
+            body {
+                background: white;
+                color: black;
+            }
+
+            .service-card:hover {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h2>علاجات اللثة</h2>
+            
+            <h3>أعراض أمراض اللثة</h3>
+            <p>تشمل الأعراض المنتشرة لنزيف اللثة، سطح أحمر ومنتفخ ولامع، رائحة الفم الكريهة، حكة في اللثة، إحساس بالنزيف، وحساسية الأسنان.</p>
+            
+            <h3>التهاب اللثة</h3>
+            <p>هو مرض التهابي يتميز بتدمير الأسنان والأنسجة الداعمة مثل الرباط اللثوي، الملاط، والعظم السنخي.</p>
+            
+            <h3>تشخيص وعلاج أمراض اللثة</h3>
+            <p>يستخدم أطباء الأسنان جهاز يسمى "مسبار دواعم الأسنان" لقياس طول جيب اللثة.</p>
+
+            <h3>طرق علاج اللثة</h3>
+            <ul class="tips-list">
+                <li>تدريب على نظافة الفم</li>
+                <li>تنظيف الجير</li>
+                <li>تقويم سطح الجذور</li>
+                <li>التجديد</li>
+                <li>العمليات الترميمية</li>
+                <li>عمليات الغشاء المخاطي</li>
+            </ul>
+
+            <h3>فوائد علاج اللثة</h3>
+            <p>الغرض الرئيسي من علاج اللثة هو الحفاظ على أسنان غير صحية تبدو ميؤوس منها في الفم.</p>
+
+            <h3>تشخيص الفم</h3>
+            <p>يشمل التشخيص الناجح فحص الفم والأسنان والأنسجة المحيطة بها مع الفحص الإشعاعي لتحديد العلاجات المناسبة.</p>
+
+            <h3>التصوير بالأشعة أثناء الحمل</h3>
+            <p>كمية الإشعاع المنبعثة من أجهزة التصوير الإشعاعي المستخدمة في طب الأسنان منخفضة جداً ولا تشكل خطرًا على صحة الإنسان.</p>
+        </div>
+    </section>
+</body>
+</html>
