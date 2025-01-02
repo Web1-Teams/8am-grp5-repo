@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادة اسنان</title>
+    <link rel="stylesheet" href="web.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+   
+<div class="structure">
+    <div class="text">حجز موعد في عيادة الأسنان 
+        <div><i class="fas fa-tooth"></i> 
+        </div>
+      
+       </div>
+    
+     <form  class="Form">
+            <label for="Name"><h3>اسم المريض:</h3></label>
+            <input type="text" name="username" placeholder=" اسم المريض" required/>
+      
+            
+            <label for="date"><h3>التاريخ:</h3></label>
+            <input type="date" required/>
+
+            <label for="time"><h3>الموعد:</h3></label>
+            <input type="time" required/>
+            
+            <div class="phone">
+               <label for="phone"><h3>رقم الهاتف:</h3></label>
+                <select class="select-country" id="country-code" required>
+                    <option value="+971">970+   فلسطين </option>
+                    <option value="+972">972+  الاراضي المحتلة</option>
+                </select>
+               
+                <input type="tel" class="input-field" id="phone-number" placeholder="597133856" required pattern="\d*" maxlength="9" />
+            </div>
+            
+     
+    
+            <div class="doctor">
+            <label for="doctor"><h3>اسم الطبيب:</h3></label>
+            <select id="doctor" name="doctor" required>
+                <option value="" disabled selected>اختر الطبيب:</option>
+                <option value="">د.فارس فقيه</option>
+                <option value="">د.لينا عثمان</option>
+                <option value="">د.مؤمن بني فيصل</option>
+                <option value="">د.إباء معالي</option>
+                <option value="">د.سعيد عثمان</option>
+         </select>
+          
+           
+            <button type="submit">حجز الموعد <i class="fas fa-check"></i></button>
+
+         
+           
+        </form>
+      
+    </div>
+</body>
+</html>
