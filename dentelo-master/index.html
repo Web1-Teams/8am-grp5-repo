@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> فقيه</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:info@example.com" class="contact-link">Faqeh@gmail.com</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+917052101786" class="contact-link">0595550544</a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/Dr.Faris.Faqeeh" class="social-link" target="_blank">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/dr.f.faqeeh" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://wa.me/595550544"  target="_blank" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">Faqeh</a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>الرئيسية</a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link" data-nav-link>الخدمات</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>من نحن</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link" data-nav-link>المدونة</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>اتصل بنا</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <a href="#" class="btn">احجز موعدك</a>
+
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" style="background-image: url('./assets/images/hero-bg.png')"
+        aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">مرحبًا بك في فقيه</p>
+
+            <h1 class="h1 hero-title">نقدم أفضل خدمة أسنان</h1>
+
+            <p class="hero-text">
+              نوفر لك أفضل خدمات طب الأسنان بأحدث التقنيات لضمان صحة وجمال ابتسامتك.
+            </p>
+
+            <form action="" class="hero-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="أدخل بريدك الإلكتروني..." required
+                class="email-field">
+
+              <button type="submit" class="btn"> لأستشارتك</button>
+            </form>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="587" height="839" alt="صورة توضيحية" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">خدماتنا</p>
+
+          <h2 class="h2 section-title text-center">ما الذي نقدمه</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-6.png" width="100" height="100" loading="lazy"
+                    alt="أيقونة خدمة" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">علاج العصب</h3>
+
+                  <p class="card-text">
+                    نقدم علاجًا متخصصًا للحفاظ على أسنانك الطبيعية وصحتها.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="100" height="100" loading="lazy"
+                    alt="أيقونة خدمة" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">تقويم الأسنان</h3>
+
+                  <p class="card-text">
+                    حلول فعالة لتحسين محاذاة الأسنان للحصول على ابتسامة مثالية.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-5.png" width="100" height="100" loading="lazy"
+                    alt="أيقونة خدمة" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">طب الأسنان التجميلي</h3>
+
+                  <p class="card-text">
+                    خدمات متقدمة لتحسين مظهر ابتسامتك.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-banner">
+              <figure>
+                <img src="./assets/images/service-banner.png" width="409" height="467" loading="lazy"
+                  alt="صورة الخدمة" class="w-100">
+              </figure>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="100" height="100" loading="lazy"
+                    alt="أيقونة خدمة" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">نظافة الفم</h3>
+
+                  <p class="card-text">
+                    خدمات متكاملة للحفاظ على صحة الفم والأسنان.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="100" height="100" loading="lazy"
+                    alt="أيقونة خدمة" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">الاستشارات المباشرة</h3>
+
+                  <p class="card-text">
+                    فريقنا متاح للإجابة عن جميع أسئلتك الصحية.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="100" height="100" loading="lazy"
+                    alt="أيقونة خدمة" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">فحص التسوس</h3>
+
+                  <p class="card-text">
+                    اكتشاف مبكر لأي مشكلات في أسنانك باستخدام أحدث التقنيات.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+      
+          <figure class="about-banner">
+            <img src="./img/OIP.jpeg" width="470" height="538" loading="lazy" alt="صورة تعريفية"
+              class="w-100">
+          </figure>
+      
+          <div class="about-content">
+      
+            <p class="section-subtitle">من نحن</p>
+      
+            <h2 class="h2 section-title">نحن نهتم بصحة أسنانك</h2>
+      
+            <p class="section-text section-text-1">
+              نحن نقدم خدمات عالية الجودة لعلاج الأسنان، مع فريق محترف يعمل على تلبية احتياجاتك. هدفنا هو توفير بيئة مريحة
+              وآمنة لضمان صحة أسنانك.
+            </p>
+      
+            <p class="section-text">
+              نستخدم أحدث التقنيات والأساليب العلمية لضمان تقديم أفضل رعاية ممكنة. سواء كنت بحاجة إلى استشارة بسيطة أو
+              علاج متقدم، نحن هنا لدعمك في كل خطوة.
+            </p>
+      
+            <a href="#" class="btn">اقرأ المزيد</a>
+      
+          </div>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #DOCTOR
+      -->
+
+      <section class="section  doctor" aria-label="doctor">
+        <div class="container">
+
+          <p class="section-subtitle text-center">فريقنا الطبي</p>
+
+          <h2 class="h2 section-title text-center">افضل خبراء الاسنان</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 200; --height: 350;">
+                  <img src="./img/fares.jpg" width="460" height="500" loading="lazy" alt="Howard Holmes"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">فارس فقيه</a>
+                </h3>
+
+                <p class="card-subtitle">طبيب</p>
+
+              
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 200; --height: 350;">
+                  <img src="./img/ebaa.jpg" width="460" height="500" loading="lazy" alt="Ella Thompson"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">ايباء معالي</a>
+                </h3>
+
+                <p class="card-subtitle">طبيبة</p>
+
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 200; --height: 350;">
+                  <img src="./img/sahed.jpg" width="460" height="500" loading="lazy" alt="Vincent Cooper"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title"> شهد فقيه</a>
+                </h3>
+
+                <p class="card-subtitle">فنية اشعة</p>
+
+              
+              </div>
+            </li>
+            <li class="scrollbar-item">
+            </li>
+
+          </ul>
+          <button type="submit" class="btn"> تعرف على باقي الاطباء</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="cta">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.png" width="1056" height="1076" loading="lazy" alt="cta banner"
+              class="w-100">
+          </figure>
+
+          <div class="cta-content">
+
+            <p class="section-subtitle">احجز موعدك الأن</p>
+
+            <h2 class="h2 section-title">يمكنك حجز موعدك الكترونيا </h2>
+
+            <a href="#" class="btn"> احجز موعدك </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+   
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <li>
+            <p class="footer-list-title"> اوقات الدوام</p>
+          </li>
+
+         
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span class="span">
+              الاحد-الثلاثاء<br>
+              9:00am - 10:00Pm
+            </span>
+          </div>
+
+
+
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span class="span">
+             الاربعاء-خميس<br>
+              10:00am - 8:00Pm
+            </span>
+          </div>
+          
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span class="span">
+              السبت<br>
+              11:00am - 7:00Pm
+            </span>
+          </div>
+          
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title"> وصول سريع</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">الرئيسية</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span"> من نحن</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">الخدمات</span>
+            </a>
+          </li>
+
+     
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span"> الفريق الطبي</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">المدونة </span>
+            </a>
+          </li>
+
+        </ul>
+        <ul class="footer-list">
+
+       
+
+          <li>
+            <p class="footer-list-title"> تواصل معنا</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </div>
+
+            <a href="https://www.facebook.com/Dr.Faris.Faqeeh" class="footer-link" target="_blank">فيس بوك</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+
+            <a href="https://www.instagram.com/dr.f.faqeeh" class="footer-link " target="_blank">انستغرام</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </div>
+
+            <a href="https://wa.me/595550544" class="footer-link" target="_blank">واتس اب</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+       
+
+          <li>
+            <p class="footer-list-title"> موقعنا</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="item-text">
+             <br>
+             نابلس-عورتا -الشارع الرئيسي
+            </address>
+          </li>
+
+        
+
+      
+        </ul>
+
+      </div>
+    </div>
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
