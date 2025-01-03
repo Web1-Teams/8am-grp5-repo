@@ -36,10 +36,11 @@ body {
 
 /* Container Styling */
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    align-items: center;
-    gap: 70px; /* Space between image boxes */
+    column-gap: 20px; /* Reduced space between columns */
+    row-gap: 20px;    /* Reduced space between rows */
     margin-top: 50px;
 }
 
@@ -94,7 +95,7 @@ body {
     display: block; 
     opacity: 1; 
     transform: translateX(-50%) translateY(0); 
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5); /* Enhanced shadow effect when text appears */
+    box-shadow: 0px 8px 20px rgba(7, 5, 5, 0.5); /* Enhanced shadow effect when text appears */
 }
 
 /* Fade Effect for Non-Hovered Images */
