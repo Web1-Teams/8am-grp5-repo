@@ -49,11 +49,11 @@
 
     <!-- قسم الفيديو -->
     <section id="clinic-video">
-        <h2>إلقي نظرة بالداخل عيادتنا</h2>
+        <h2>إلقي نظرة بداخل عيادتنا</h2>
         <div class="video-container">
-            <video controls>
-                <source src="clinic-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+            <video controls autoplay loop muted>
+                <source src="medical-team\clinicved.mp4" type="video/mp4">
+            
             </video>
 
 
@@ -67,25 +67,25 @@
             <div class="achievements-grid">
                 <div class="achievement">
                     <div class="circle">
-                        <h3>5+</h3>
+                        <h3 class="counter" data-target="5">0</h3>
                     </div>
                     <p><B>سنوات الخبرة</B></p>
                 </div>
                 <div class="achievement">
                     <div class="circle">
-                        <h3>1250+</h3>
+                        <h3 class="counter" data-target="1250">0</h3>
                     </div>
                     <p><B>مرضى سعداء</B></p>
                 </div>
                 <div class="achievement">
                     <div class="circle">
-                        <h3>50+</h3>
+                        <h3 class="counter" data-target="50">0</h3>
                     </div>
-                    <p><B>لعمليات الجراحية الناجحة</B></p>
+                    <p><B>عمليات الجراحية الناجحة</B></p>
                 </div>
                 <div class="achievement">
                     <div class="circle">
-                        <h3>10+</h3>
+                        <h3 class="counter" data-target="10">0</h3>
                     </div>
                     <p><b>الجوائز التي حصلنا عليها</b></p>
                 </div>
@@ -111,5 +111,7 @@
     <footer>
         <p>&copy; 2024 Dental Clinic. All Rights Reserved.</p>
     </footer>
+    <script src="index.js"> </script>
+   
 </body>
 </html>
