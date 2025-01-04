@@ -1,5 +1,4 @@
-
-function Hero() {
+const Hero = () => {
   return (
     <section
       className="section hero"
@@ -7,7 +6,6 @@ function Hero() {
       style={{ backgroundImage: "url('./images/hero-bg.png')" }}
       aria-label="hero"
     >
-        
       <div className="container">
         <div className="hero-content">
           <p className="section-subtitle">مرحبًا بك في فقيه</p>
@@ -28,9 +26,7 @@ function Hero() {
               className="email-field"
             />
 
-            <button type="submit" className="btn">
-              لأستشارتك
-            </button>
+            <button type="submit" className="btn">لأستشارتك</button>
           </form>
         </div>
 
@@ -46,6 +42,6 @@ function Hero() {
       </div>
     </section>
   );
-}
+};
 
 export default Hero;
