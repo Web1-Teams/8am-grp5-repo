@@ -1,0 +1,33 @@
+.form-input {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1e293b;
+    font-size: 0.95rem;
+  }
+  
+  .form-field {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #f8fafc;
+  }
+  
+  .form-field:focus {
+    outline: none;
+    border-color: #2563eb;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+  
+  .form-field::placeholder {
+    color: #94a3b8;
+  }
+  
