@@ -6,8 +6,6 @@ import Name from './Name'
 import DateTime from './DateTime'
 import Phone  from './Phone'
 import Doctor from './Doctor'
-import './Reservation.css'
-import './Lable.css'
 
 
 

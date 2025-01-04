@@ -1,7 +1,7 @@
 
 
 import React from "react"
-
+import './Lable.css'
 const Name = () => {
   return (
     <>
