@@ -1,14 +1,14 @@
-import Form from './components/Form'
 import '@fortawesome/fontawesome-free/css/all.min.css'
-import Card from './componentsShayma/Card';
+import BlogList from './WijdanBlog/BlogList';
+
 
 
 
 function App() {
   return (
-     <>
-   <Card/>
-  <Form/>
+    <>
+  
+<BlogList/>
  
  
 
