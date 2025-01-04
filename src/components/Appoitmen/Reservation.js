@@ -3,9 +3,10 @@
 import React from "react"
 import './Reservation.css'
 
+
 const Reservation = () => {
   return (
-    <div className="text">
+    <div className="text-1">
       <i className="fas fa-tooth"></i> حجز موعد في عيادة الأسنان
     </div>
   )

@@ -112,10 +112,10 @@ body {
       padding: 4%;
       margin: 2%;
   }
-  .text {
+  .text-1 {
       font-size: 20px;
   }
-  #doctor, input, button {
+  #doctor-1, input, button {
       padding: 8px;
       margin: 4px 0 10px;
       border-radius: 50px;
@@ -131,10 +131,10 @@ body {
       padding: 3%;
       margin: 2%;
   }
-  .text {
+  .text-1 {
       font-size: 18px;
   }
-  #doctor, input, button {
+  #doctor-1, input, button {
       padding: 6px;
       margin: 3px 0 8px;
       border-radius: 40px;

@@ -1,0 +1,14 @@
+.header {
+    background: linear-gradient(to top right, #2563eb, #1d4ed8);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .header-title {
+    font-size: 1.75rem; 
+    font-weight: bold;
+    margin: 0;
+  }
+  

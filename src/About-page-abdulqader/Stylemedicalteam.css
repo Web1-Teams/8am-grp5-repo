@@ -1,0 +1,45 @@
+
+#team-intro {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    background-color: var(--light-color);
+}
+
+#team-intro h2 {
+    font-size: 2.25rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+#team-intro p {
+    font-size: 1.125rem;
+    color: var(--text-color);
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+.team-image {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+}
+
+@media (max-width: 768px) {
+    #team-intro h2 {
+        font-size: 1.75rem;
+    }
+
+    #team-intro p {
+        font-size: 1rem;
+    }
+}

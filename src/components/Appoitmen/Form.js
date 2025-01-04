@@ -1,10 +1,10 @@
 // imports
 import React from 'react'
 import  './sform.css'
-import Reservation from './Reservation' 
-import Name from './Name' 
+import Reservation from './components/Appoitmen/Reservation' 
+import Name from './components/Appoitmen/Name' 
 import DateTime from './DateTime'
-import Phone  from './Phone'
+import Phone  from './components/Appoitmen/Phone'
 import Doctor from './Doctor'
 
 

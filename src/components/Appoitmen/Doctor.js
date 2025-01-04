@@ -5,11 +5,11 @@ import './Lable.css'
 
 const Doctor = () => {
   return (
-    <div className="doctor">
-      <label htmlFor="doctor">
+    <div className="doctor-1">
+      <label htmlFor="doctor-1">
         <h5>:اسم الطبيب</h5>
       </label>
-      <select id="doctor" name="doctor" required>
+      <select id="doctor" name="doctor-1" required>
         <option value="" disabled selected>
           :اختر الطبيب
         </option>
