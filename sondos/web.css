@@ -1,0 +1,74 @@
+body {
+    background-color:rgb(9, 8, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+
+.text {
+    background-color: rgb(9, 8, 51); 
+    color: whitesmoke; 
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border: 2px solid white;
+    border-radius: 50px; 
+    text-align: center;
+    margin-top: 15%;
+    box-shadow: 0 4px 8px blue;
+}
+
+
+.structure {
+    max-width: 90%; /* أكثر استجابة */
+    
+    margin: 5% auto;
+    background-color: whitesmoke;
+    margin-top: 5%;
+    padding: 5%;
+    border-radius: 8%; /* تحسين التصميم */
+   
+   
+}
+   
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: rgb(16, 15, 79);
+    text-align: center; 
+    
+}
+
+#doctor, input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 2px solid darkblue;
+    border-radius: 80px;
+    text-align: right;
+}
+
+
+button {
+    background-color: rgb(15, 15, 84);
+    color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 2px solid rgb(191, 191, 226);
+    border-radius: 80px;
+    transition: all 0.3s ease-in-out; /* تحسين الحركة */
+}
+
+button:hover {
+    background-color: rgb(26, 18, 114);
+    transform: scale(1.1);
+}
+
