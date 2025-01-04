@@ -1,5 +1,5 @@
 const BlogPost3 = {
-    imgSrc: "./2435696ece8077a165e79120951d9db0.png.webp",
+    imgSrc: "./image.png",
     imgAlt: "Seas accumsan nulla nec lacus ultricies placerat.",
     dateTime: "2022-03-24",
     title: "أسئلة شائعة",

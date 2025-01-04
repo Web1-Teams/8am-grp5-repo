@@ -1,18 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\s
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -38,15 +23,10 @@
     --black: hsl(0, 0%, 0%);
     --jet: hsl(0, 0%, 20%);
   
-    /**
-     * gradient color
-     */
-  
+   
     --gradient: linear-gradient( 90deg, var(--carolina-blue) 0%, var(--royal-blue-light) 100%);
   
-    /**
-     * typography
-     */
+    
   
     --ff-roboto: "Roboto", sans-serif;
     --ff-poppins: "Poppins", sans-serif;
@@ -64,15 +44,11 @@
     --fw-600: 600;
     --fw-500: 500;
   
-    /**
-     * spacing
-     */
+ 
   
     --section-padding: 120px;
   
-    /**
-     * shadow
-     */
+    
   
     --shadow-1: 4px 4px 15px var(--black_10);
     --shadow-2: 0 10px 15px var(--black_10);
@@ -80,16 +56,11 @@
     --shadow-4: 0px 10px 30px var(--flickr-blue_30);
     --shadow-5: 0px 2px 60px 0px var(--black_10);
   
-    /**
-     * border radius
-     */
-  
+    
     --radius-6: 6px;
     --radius-4: 4px;
   
-    /**
-     * transition
-     */
+   
   
     --transition: 0.25s ease;
     --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
@@ -100,9 +71,7 @@
   
   
   
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
+ 
   
   *,
   *::before,
@@ -159,9 +128,7 @@
   
   
   
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
+  
   
   .container { padding-inline: 25px; }
   
@@ -230,9 +197,7 @@
   
   
   
-  /*-----------------------------------*\
-    #HEDER
-  \*-----------------------------------*/
+ 
   
   .header-top,
   .header-bottom .btn { display: none; }
@@ -319,9 +284,7 @@
   
   
   
-  /*-----------------------------------*\
-    #HERO
-  \*-----------------------------------*/
+
   
   .hero {
     background-repeat: no-repeat;
@@ -363,9 +326,7 @@
   
   
   
-  /*-----------------------------------*\
-    #SERVICE
-  \*-----------------------------------*/
+
   
   .service-banner { display: none; }
   
@@ -397,11 +358,7 @@
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #ABOUT
-  \*-----------------------------------*/
+
   
   .about { padding-block-end: 0; }
   
@@ -421,7 +378,7 @@
   
   
   
-    /*DOCTOR*/
+ 
   
   
   .doctor .section-title { margin-block-end: 50px; }
@@ -474,10 +431,7 @@
     left:45rem;
     top: -15rem;
   }
-  
-  /*-----------------------------------*\
-    #CTA
-  \*-----------------------------------*/
+
   
   .cta { background-color: var(--oxford-blue-1); }
   
@@ -498,12 +452,7 @@
   
   
   
-  
-  
-  
-  /*-----------------------------------*\
-    #FOOTER
-  \*-----------------------------------*/
+
   
   .footer-top {
     background-color: var(--oxford-blue-2);
@@ -612,35 +561,21 @@
   
   
   
-  /*-----------------------------------*\
-    #MEDIA QUERIES
-  \*-----------------------------------*/
-  
-  /**
-   * responsive for larger than 575px screen
-   */
   
   @media (min-width: 575px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
+
   
     :root {
   
-      /**
-       * typography
-       */
+      
   
       --fs-1: 4.2rem;
   
     }
   
   
-  
-    /**
-     * REUSED STYLE
-     */
+ 
   
     .container {
       max-width: 540px;
@@ -653,9 +588,6 @@
     
   
   
-    /**
-     * FOOTER
-     */
   
     .footer-top .container { grid-template-columns: 1fr 1fr; }
   
@@ -665,21 +597,10 @@
   
   
   
-  /**
-   * responsive for larger than 768px screen
-   */
   
-
-  
-    /**
-     * CUSTOM PROPERTY
-     */
   
     :root {
-  
-      /**
-       * typography
-       */
+
   
       --fs-2: 4.8rem;
   
@@ -687,27 +608,17 @@
   
   
   
-    /**
-     * RESET
-     */
   
     body { font-size: 1.6rem; }
   
   
   
-    /**
-     * REUSED STYLE
-     */
   
     .container { max-width: 750px; }
   
     .section-subtitle { --fs-6: 2.2rem; }
   
   
-  
-    /**
-     * HERO
-     */
   
     .hero { overflow: hidden; }
   
@@ -739,9 +650,6 @@
   
   
   
-    /**
-     * SERVICE
-     */
   
     .service-list {
       grid-template-columns: 1fr 1fr;
@@ -750,17 +658,10 @@
   
   
   
-    /**
-     * DOCTOR
-     */
-  
     .scrollbar-item { min-width: calc(50% - 15px); }
   
   
   
-    /**
-     * CTA
-     */
   
     .cta { padding-block: 1; }
   
@@ -780,9 +681,7 @@
     
   
   
-    /**
-     * FOOTER
-     */
+    
   
     .footer-bottom { padding-block: 30px; }
   
@@ -801,21 +700,13 @@
   
   
   
-  /**
-   * responsive for larger than 992px screen
-   */
   
   @media (min-width: 992px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
-  
+    
     :root {
   
-      /**
-       * typography
-       */
+     
   
       --fs-2: 6rem;
       --fs-1: 4.6rem;
@@ -825,17 +716,11 @@
   
   
   
-    /**
-     * REUSED STYLE
-     */
-  
+   
     .container { max-width: 980px; }
   
   
   
-    /**
-     * header
-     */
   
     .header-top {
       display: block;
@@ -911,10 +796,6 @@
   
   
   
-    /**
-     * SERVICE
-     */
-  
     .service-list { grid-template-columns: repeat(3, 1fr); }
   
     .service-banner {
@@ -926,9 +807,6 @@
   
   
   
-    /**
-     * ABOUT
-     */
   
     .about .container {
       display: grid;
@@ -940,28 +818,16 @@
     .about-banner { margin-block-end: 0; }
   
   
-  
-    /**
-     * DOCTOR
-     */
-  
     .scrollbar-item { min-width: calc(33.33% - 20px); }
   
   
-  
-    /**
-     * CTA
-     */
-  
+
     .cta-content { padding-block: 80px; }
   
   
   
    
   
-    /**
-     * FOOTER
-     */
   
     .footer-top .container { grid-template-columns: 1fr 0.5fr 0.6fr 0.75fr; }
   
@@ -970,23 +836,14 @@
   
   
   
-  
-  /**
-   * responsive for larger than 1200px screen
-   */
-  
+                
   @media (min-width: 1200px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
-  
+   
+                      
     :root {
   
-      /**
-       * typography
-       */
-  
+      
       --fs-2: 8rem;
       --fs-1: 5.5rem;
       --fs-3: 4.8rem;
@@ -995,17 +852,11 @@
   
   
   
-    /**
-     * REUSED STYLE
-     */
+    
   
     .container { max-width: 1180px; }
   
   
-  
-    /**
-     * header
-     */
   
     .contact-list { gap: 30px; }
   
@@ -1017,20 +868,12 @@
   
   
   
-    /**
-     * ABOUT
-     */
-  
     .about .container {
       grid-template-columns: 0.85fr 1fr;
       gap: 100px;
     }
   
   
-  
-    /**
-     * DOCTOR
-     */
   
     .doctor { padding-block-end: 180px; }
   
@@ -1042,10 +885,6 @@
     }
   
   
-  
-    /**
-     * CTA
-     */
   
     .cta .container { align-items: center; }
   

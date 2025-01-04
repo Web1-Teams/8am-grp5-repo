@@ -1,20 +1,6 @@
 
-.container {
-    padding-inline: 25px;
-}
-  
-.section {
-    padding-block: var(--section-padding);
-}
-  
-.section-subtitle {
-    color: var(--royal-blue-light);
-    font-family: var(--ff-poppins);
-    font-size: var(--fs-6);
-    font-weight: var(--fw-700);
-    text-transform: uppercase;
-    margin-block-end: 10px;
-}
+
+
   
 .h2,
 .h3 {
@@ -130,11 +116,7 @@
 }
   
 @media (min-width: 575px) {
-    .container {
-        max-width: 540px;
-        width: 100%;
-        margin-inline: auto;
-    }
+   
     .blog-card .h3 {
         --fs-5: 2.6rem;
     }
@@ -144,7 +126,5 @@
     .blog-list {
         grid-template-columns: repeat(3, 1fr);
     }
-    .container {
-        max-width: 1180px;
-    }
+   
 }

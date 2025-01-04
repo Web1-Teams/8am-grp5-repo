@@ -1,0 +1,32 @@
+
+
+  /* الهيكل الرئيسي */
+  .structure {
+    
+    margin: 5% auto;
+    background-color: whitesmoke;
+    padding: 5%;
+    border-radius: 10%;
+    width: 550px;
+     max-width: 600px;
+    
+  
+   
+  }
+   
+  
+  /* النصوص */
+  .text-1 {
+    background-color: rgb(9, 8, 51); 
+    color: whitesmoke; 
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border: 2px solid white;
+    border-radius: 50px; 
+    text-align: center;
+    margin: 5% auto;
+    box-shadow: 0 4px 8px blue;
+    max-width: 80%;
+  
+  }

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const Header = () =>{
   return(
       <header className="header">
@@ -47,11 +48,11 @@ const Header = () =>{
         <li><a href="home" className="navbar-link" data-nav-link>اتصل بنا</a></li>
       </ul>
     </nav>
-    <a href="appoitment" className="btn">احجز موعدك</a>
-    <button className="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
-      <ion-icon name="menu-sharp" aria-hidden="true" className="menu-icon"></ion-icon>
-      <ion-icon name="close-sharp" aria-hidden="true" className="close-icon"></ion-icon>
-    </button>
+    <Link to="/appoitment" className="btn">احجز موعدك</Link>
+      <button className="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-sharp" aria-hidden="true" className="menu-icon"></ion-icon>
+        <ion-icon name="close-sharp" aria-hidden="true" className="close-icon"></ion-icon>
+      </button>
   </div>
 </div>
 </header>

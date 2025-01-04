@@ -1,65 +1,9 @@
 
 /*  back-ground img */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(backgroud.img.webp);
-    line-height: 1.8;
-    background-size:cover;
-    margin: 0;
-    font-family: "Arial", sans-serif;
-    line-height: 1.6;
-    color: #333;
-    text-align: center;
-}
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/img/blurred-background-dental-clinic-interior-191028614.webp);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: #333;
-    line-height: 1.8;
-}
-
-header {
-    background-color: rgba(13, 9, 243, 0.527);
-    padding: 0.5rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: start;
-    padding: 1.3rem;
-}
-
-header nav ul li {
-    margin: 1.2rem;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-    font-weight: bold;
-    position: relative;
-    left: 2rem;
-}
 
 
-header nav ul li a:hover {
-    color: wheat;
-    text-decoration: underline;
-    border-radius: 5rem;
-}
+
+
 
 .content {
     font-size: 3.2rem;
@@ -304,9 +248,3 @@ box-shadow: 0px 0px 20px black;    transition: transform 0.3s, box-shadow 0.3s;
 
 
 /* الفوتر */
-footer {
-    background: #0077b6;
-    color: white;
-    padding: 1rem;
-    margin-top: 2rem;
-}
