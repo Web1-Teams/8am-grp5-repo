@@ -1,0 +1,62 @@
+#clinic-video {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    background-color: var(--light-color);
+}
+
+#clinic-video h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+}
+
+#clinic-video h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 4px;
+    background: linear-gradient(to left, var(--primary-color), var(--accent-color));
+    border-radius: 2px;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #clinic-video h2 {
+        font-size: 1.75rem;
+    }
+
+    .video-container {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #clinic-video h2 {
+        font-size: 1.75rem;
+    }
+
+    .video-container {
+        max-width: 100%;
+    }
+}

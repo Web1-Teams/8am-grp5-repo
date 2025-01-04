@@ -1,0 +1,312 @@
+
+/*  back-ground img */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(backgroud.img.webp);
+    line-height: 1.8;
+    background-size:cover;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/img/blurred-background-dental-clinic-interior-191028614.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+    line-height: 1.8;
+}
+
+header {
+    background-color: rgba(13, 9, 243, 0.527);
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    padding: 1.3rem;
+}
+
+header nav ul li {
+    margin: 1.2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    left: 2rem;
+}
+
+
+header nav ul li a:hover {
+    color: wheat;
+    text-decoration: underline;
+    border-radius: 5rem;
+}
+
+.content {
+    font-size: 3.2rem;
+    position: relative;
+    left: 20rem;
+    color: azure;
+    text-decoration: none;
+    
+}
+
+.content1 {
+    font-size: 3.2rem;
+    position: relative;
+    left: 31.4rem;
+    color: azure;
+    text-decoration: none;
+
+}
+
+.content2 {
+    font-size: 3.2rem;
+    position: relative;
+    left: 22.4rem;
+    color: azure;
+    text-decoration: none;
+
+}
+
+.content3 {
+    font-size: 3.2rem;
+    position: relative;
+    left: 13.4rem;
+    text-decoration: none;
+    color: rgb(7, 241, 7);
+}
+
+    
+/*
+header {
+    background: linear-gradient(90deg, #0077b6, #00b4d8);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1.5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #caf0f8;
+}
+
+/* قسم الوصف */
+#about {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#about h1 {
+    font-size: 2.5rem;
+    color: #0077b6;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* قسم الفيديو */
+#clinic-video {
+    padding: 2rem;
+    background: #0077b6;
+    color: white;
+}
+
+#clinic-video h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* قسم الإنجازات */
+#achievements {
+    padding: 2rem;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+#achievements h2 {
+    font-size: 2.5rem;
+    color: #0077b6;
+    margin-bottom: 2rem;
+    position: relative;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+/* شبكة الإنجازات */
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+/* تصميم الدوائر */
+.achievement {
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+box-shadow: 0px 0px 20px black;    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.circle h3 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* النصوص */
+.achievement p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* حركات (Animations) 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+/* لمحة عن الفريق الطبي */
+#team-intro {
+    padding: 2rem;
+    background: #f1f1f1;
+}
+
+#team-intro h2 {
+    font-size: 2rem;
+    color: #0077b6;
+    margin-bottom: 1rem;
+}
+
+#team-intro p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* صورة الفريق */
+.team-image {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-image img {
+    max-width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* الفوتر */
+footer {
+    background: #0077b6;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
